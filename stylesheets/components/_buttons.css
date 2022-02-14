@@ -1,0 +1,65 @@
+/*SIGN IN - NAVBAR*/
+
+.btn-nav {
+  display: inline-block;
+  background-color: var(--dark-green);
+  color: white;
+  padding: 6px 15px;
+
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.fa-user {
+  color:  white;
+  padding-right:  7px;
+}
+
+.btn-nav:hover {
+  background-color: transparent;
+  color: var(--dark-green-hover);
+  border: 1px solid var(--dark-green);
+  margin: -1px;
+  /*border: 1px solid var(--dark-green-hover);*/
+  /*color: var(--dark-green-hover);*/
+}
+
+.btn-nav:hover .fa-user {
+  color: var(--dark-green);
+}
+
+/*BANNER*/
+
+.btn-banner {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  /*background: linear-gradient(var(--dark-green), var(--light-green));*/
+  transition: background 0.5s ease;
+  border: 1px solid var(--dark-green);
+}
+
+.btn-banner:hover {
+  background: linear-gradient(var(--dark-green-hover), var(--light-green-hover));
+  color: white;
+  border: 1px solid var(--dark-green-hover);
+}
+
+/*OTHER*/
+
+.btn-ghost {
+  color: white;
+  border: 1px solid var(--dark-green);
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  /*opacity: 0.6;*/
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  color: white;
+  background-color: var(--dark-green);
+  border: 1px solid var(--dark-green);
+}

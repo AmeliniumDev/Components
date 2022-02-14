@@ -1,0 +1,19 @@
+/*Define variables for your color scheme*/
+
+:root {
+  --red:  #FD4945;
+  --red-hover: #E6423F;
+  --orange:  #F49F0A;
+  --light-orange: #F7B23B;
+  --yellow:  #EFCA08;
+  --dark-green: #1BB139;
+  --dark-green-hover: #158E2D;
+  --light-green:  #41D259;
+  --light-green-hover: #2FC648;
+  --blue: #15B0CB;
+  --green-blue: #0CC6C6;
+  --light-blue:  #BCDFF0;
+  --background-white: #F5F5F5;
+  --black:  #202020;
+  --black-hover:  #000000;
+}

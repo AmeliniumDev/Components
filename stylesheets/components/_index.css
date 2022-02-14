@@ -1,0 +1,32 @@
+/*Import your components CSS files here.*/
+@import "_alert.css";
+@import "_avatar.css";
+
+@import "_banner.css";
+@import "_body.css";
+@import "_buttons.css";
+/*split background when scrolling - part of grid?*/
+/*@import "_backgrounds.css";*/
+
+/*cards: category, product, trip*/
+@import "_cards.css";
+
+@import "_footer.css";
+/*@import "_form.css";*/
+
+/*UNDER BODY - to see if separate file needed; grids: cards, page*/
+/*@import "_grids.css";*/
+
+@import "_logo.css";
+@import "_menu.css";
+/*navbar: top, left side, right side*/
+@import "_navbar.css";
+@import "_notification.css";
+
+/*searches: simple, with filters*/
+@import "_search.css";
+
+/*smiple table, table with tabs*/
+/*@import "_tables.css";*/
+
+/*@import "_.css";*/

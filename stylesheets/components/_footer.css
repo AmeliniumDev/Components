@@ -1,0 +1,5 @@
+.footer {
+  background: var(--light-orange);
+  height: 100px;
+  font-size: 80%;
+}

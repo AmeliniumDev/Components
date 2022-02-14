@@ -1,0 +1,64 @@
+/*ul {
+  list-style-type: none;
+}
+*/
+
+.navbar {
+  /*child properties*/
+  /*parent properties*/
+  display: flex;
+  justify-content: space-between;
+  /*design*/
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  border-bottom: 1px solid black;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.3);
+  height: 60px;
+  width: 100%;
+}
+
+.nav-left {
+  /*child properties*/
+  flex-grow: 1;
+  /*parent properties*/
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  /*design*/
+  padding-left: 10px;
+  /*border: 1px solid black;*/
+}
+
+.nav-right {
+  /*child properties*/
+  flex-grow: 1;
+  /*parent properties*/
+  display: flex;
+  align-items: center;
+  justify-content:  right;
+  column-gap: 15px;
+  /*design*/
+  padding-right: 10px;
+  /*border: 1px solid black;*/
+}
+
+.nav-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-left a {
+  width:  max-content;
+  text-decoration: none;
+  box-shadow: none;
+  color: black;
+}
+
+.green-hover:hover {
+ color: var(--dark-green);
+}
+
+.white-hover:hover {
+  color: white;
+}

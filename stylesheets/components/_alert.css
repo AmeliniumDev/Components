@@ -1,0 +1,29 @@
+.section-alert {
+  background: var(--red);
+  max-height: 45px;
+  display: flex;
+  align-items:  center;
+  justify-content:  space-between;
+  border-radius: 0px;
+  padding-left:  0px 20px 0px 20px;
+}
+
+.section-alert a p {
+  color: white;
+  margin-bottom: 0;
+}
+
+.flash {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.flash-success {
+  border: 2px solid var(--dark-green);
+}

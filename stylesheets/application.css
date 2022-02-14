@@ -1,0 +1,17 @@
+/*Graphical variables*/
+@import "config/_fonts.css";
+@import "config/_colors.css";
+@import "config/_bootstrap_variables.css";
+
+/*External libraries*/
+
+
+/*CSS partials*/
+@import "components/_index.css";
+/*@import "pages/index";*/
+
+
+/*h1 {
+  font-size: 300px;
+  color: red;
+}*/
