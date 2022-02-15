@@ -5,6 +5,7 @@ html {
 body {
   background-color: var(--background-white);
   min-height: 100vh;
+  min-width:  350px;
   font-family: 'Spectral';
   font-weight: 300; /* if you want the light version */
   color: var(--black);
