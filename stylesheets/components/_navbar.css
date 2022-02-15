@@ -62,3 +62,24 @@
 .white-hover:hover {
   color: white;
 }
+
+/*Smallest device*/
+@media (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+    min-height: 300px;
+/*    align-content: center;
+    align-items:  center;*/
+  }
+
+  .nav-left, .nav-right {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:  0px;
+  }
+
+/*  .nav-right {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }*/
+}

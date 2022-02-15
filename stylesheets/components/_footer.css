@@ -1,5 +1,31 @@
 .footer {
-  background: var(--light-orange);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 100px;
-  font-size: 80%;
+  padding: 0px 50px;
+  background: var(--light-orange);
+  /* = color:  black + opacity*/
+  color: rgba(0,0,0,0.4);
+  font-size: 90%;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: var(--dark-green);
+  opacity: 0.4;
+  text-decoration: none;
+  font-size: 120%;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+  color: var(--dark-green);
+}
+.footer .fa-lightbulb {
+  color: var(--dark-green);
+  opacity:  0.4;
 }
