@@ -11,6 +11,8 @@
 /*cards: category, product, trip*/
 @import "_cards.css";
 
+@import "_carousel.css";
+
 @import "_footer.css";
 /*@import "_form.css";*/
 
