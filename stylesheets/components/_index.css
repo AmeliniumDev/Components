@@ -28,6 +28,8 @@
 /*searches: simple, with filters*/
 @import "_search.css";
 
+@import "_video.css";
+
 /*smiple table, table with tabs*/
 /*@import "_tables.css";*/
 
