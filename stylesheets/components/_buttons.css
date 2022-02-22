@@ -35,13 +35,14 @@
   padding: 8px 24px;
   border-radius: 50px;
   font-weight: bold;
-  /*background: linear-gradient(var(--dark-green), var(--light-green));*/
-  transition: background 0.5s ease;
+  /*background: linear-gradient(var(--dark-green-hover), var(--light-green-hover));*/
+  transition: background 0.3s ease;
   border: 1px solid var(--dark-green);
 }
 
 .btn-banner:hover {
   background: linear-gradient(var(--dark-green-hover), var(--light-green-hover));
+  /*background:  transparent;*/
   color: white;
   border: 1px solid var(--dark-green-hover);
 }

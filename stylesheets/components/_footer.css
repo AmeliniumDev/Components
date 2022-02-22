@@ -16,7 +16,7 @@
   align-items: center;
 }
 .footer-links a {
-  color: var(--dark-green);
+  color: black;
   opacity: 0.4;
   text-decoration: none;
   font-size: 120%;
