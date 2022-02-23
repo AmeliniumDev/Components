@@ -46,3 +46,14 @@ document.querySelectorAll(".carousel").forEach(carousel => {
   items[0].classList.add("carousel-item-selected");
   buttons[0].classList.add("carousel-button-selected");
 });
+
+// navbar
+// Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon
+function myFunction() {
+  var x = document.getElementById("respNavbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}

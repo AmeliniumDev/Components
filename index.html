@@ -30,35 +30,44 @@
     <!-- My stylesheet -->
     <link rel="stylesheet" href="stylesheets/application.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+
+    <!-- * HEADER = NAVBAR + BANNER * -->
+
     <header>
-      <!-- * NAVBAR - TOP * -->
+
+      <!-- NAVBAR - TOP -->
+
       <!-- <nav> </nav> navigation links -->
-      <nav class="navbar">
-        <div class="nav-left">
-          <!-- left side -->
-          <!-- DROPDOWN MENU -->
-          <div class="dropdown">
-            <a class="dropdown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa fa-bars fa-2x green-hover" aria-hidden="true"></i>
-            </a>
-            <ul class="dropdown-menu dropdown-menu-start">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Separated link</a></li>
-            </ul>
+      <nav id="respNavbar" class="topnav">
+
+         <a href="#">Home</a>
+          <a href="#">Title 1</a>
+          <a href="#">Title 2</a>
+          <div class="dropdown-nav">
+            <button class="dropdown-btn">Dropdown
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
           </div>
-          <!-- LOGO (link homepage)-->
-           <a href="#" target="_blank">
-            <i class="far fa-object-group fa-3x"></i>
-          </a>
-        </div>
-        <div class="nav-right">
-          <!-- right side -->
-          <!-- SEARCH FORM -->
+          <a href="#">About</a>
+
+          <!-- Sign in button -->
+
+          <a href="#" target="_blank" class="btn-signin"><i class="fa fa-user"></i>Sign in</a>
+
+          <!-- Menu icon -->
+
+          <a href="javascript:void(0);" class="menu-icon" onclick="myFunction()">&#9776;</a>
+
+          <!-- Search form -->
+
           <form novalidate="novalidate" class="simple_form search" action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
             <div class="search-form-control form-group">
               <input class="form-control string required" type="text" name="search[query]" id="search_query" placeholder="Search site" />
@@ -67,13 +76,11 @@
               </button>
             </div>
           </form>
-          <!-- AVATAR with dropdown menu -->
-          <!-- SIGN IN BUTTON -->
-          <a href="#" target="_blank" class="btn-nav"><i class="fa fa-user"></i>Sign in</a>
-        </div>
+
       </nav>
 
-      <!-- * BANNER * -->
+      <!-- BANNER -->
+
       <!-- <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/york.jpg);"> -->
       <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://source.unsplash.com/random/?uk?countryside);">
         <div class="container">
@@ -82,13 +89,12 @@
           <a class="btn-banner" href="#">Learn more</a>
         </div>
       </div>
+
     </header>
 
     <!-- * MAIN CONTAINER * -->
-    <div class="main-container">
-      <!-- SPLIT BACKGROUND -->
-      <!-- TABS -->
 
+    <div class="main-container">
 
       <!-- ALERTS / NOTIFICATIONS -->
 
@@ -345,22 +351,24 @@
 
     </div>
 
-      <! * -- FOOTER * -->
-
-      <div class="footer">
-        <div class="footer-links">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="footer-copyright">
-          Made by Amelia Urbanowicz <i class="fas fa-lightbulb"></i>
-        </div>
+    <! * -- FOOTER * -->
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
       </div>
+      <div class="footer-copyright">
+        Made by Amelia Urbanowicz <i class="fas fa-lightbulb"></i>
+      </div>
+    </div>
+
+    <!-- * JAVASCRIPT * -->
 
     <script src="javascript/application.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   </body>
 </html>
