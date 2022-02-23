@@ -1,13 +1,15 @@
 /*SIGN IN - NAVBAR*/
 
-.btn-nav {
+.topnav .btn-signin {
   display: inline-block;
   background-color: var(--dark-green);
   color: white;
   padding: 6px 15px;
-
   border-radius: 6px;
   transition: background 0.3s ease;
+  /*NEW CODE*/
+  float: right;
+  margin: 10px;
 }
 
 .fa-user {
@@ -15,16 +17,16 @@
   padding-right:  7px;
 }
 
-.btn-nav:hover {
+.topnav .btn-signin:hover {
   background-color: transparent;
   color: var(--dark-green-hover);
   border: 1px solid var(--dark-green);
-  margin: -1px;
+  margin: 9px;
   /*border: 1px solid var(--dark-green-hover);*/
   /*color: var(--dark-green-hover);*/
 }
 
-.btn-nav:hover .fa-user {
+.topnav .btn-signin:hover .fa-user {
   color: var(--dark-green);
 }
 
