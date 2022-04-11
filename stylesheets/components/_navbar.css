@@ -1,7 +1,18 @@
+/*#respNavbar {
+  z-index: 2;
+  top: 0;
+}
+*/
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: var(--background-white);
+  background-color: white;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+  font-family: 'Spectral';
   overflow: hidden;
+  /*position: fixed;*/
+  /*top: 0;*/
+  width: 100%;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 /* Style the links inside the navigation bar */

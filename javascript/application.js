@@ -1,3 +1,5 @@
+// ROTATING CARDS
+
 // rotating cards on click or mouseenter & mouseleave
 // (doesnt work for moveover -> constantly flips)
 document.querySelectorAll(".flip-card-inner").forEach(function(element) {
@@ -15,7 +17,7 @@ document.querySelectorAll(".flip-card-inner").forEach(function(element) {
 });
 
 
-// carousel
+// CAROUSEL
 
 document.querySelectorAll(".carousel").forEach(carousel => {
   const items = carousel.querySelectorAll(".carousel-item")
@@ -47,7 +49,8 @@ document.querySelectorAll(".carousel").forEach(carousel => {
   buttons[0].classList.add("carousel-button-selected");
 });
 
-// navbar
+// NAVBAR
+
 // Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon
 function myFunction() {
   var x = document.getElementById("respNavbar");
@@ -57,3 +60,15 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+// When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   var currentScrollPos = window.pageYOffset;
+//   if (prevScrollpos > currentScrollPos) {
+//     document.getElementById("respNavbar").style.top = "0";
+//   } else {
+//     document.getElementById("respNavbar").style.top = "-60px";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
